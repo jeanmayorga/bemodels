@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </Heading>
       </Box>
       <Box
-        w={{ base: "100%", lg: "600px" }}
+        w={{ base: "100%", lg: "900px" }}
         margin="auto"
         overflow="hidden"
         borderRadius={{ base: "none", lg: "lg" }}
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           src="https://scontent.fltx1-1.fna.fbcdn.net/v/t1.6435-9/162755073_132119145582873_3481728711598010053_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeGitQiXlV5eqIGuOii376vrdcsY-GwFC4R1yxj4bAULhD7tS3QkSNNVEV3vLGn-qRCldHfXSzGnmqloG0ybXTWA&_nc_ohc=LCdmw7fLqtoAX_G5pjs&_nc_ht=scontent.fltx1-1.fna&oh=00_AT_lYK9kjifvizPFqD6jwqeyoqqrKMyl0sOKeSLQ-6YX3Q&oe=621FAEB9"
         />
       </Box>
-      <Box w={{ base: "100%", lg: "600px" }} margin="auto" px={4} my={8}>
+      <Box w={{ base: "100%", lg: "800px" }} margin="auto" px={4} my={8}>
         <Heading as="h1" size="md" color="gray.600" mb="2">
           Be Models Ecuador
         </Heading>
