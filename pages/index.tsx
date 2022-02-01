@@ -164,7 +164,7 @@ const Home: NextPage = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
-                Be Models cuenta con dos programas: infantil y juvenil
+                Be Models cuenta con dos programas: infantil y juvenil:
                 <br />
                 - Programa Kids (No disponible por el momento)
                 <br />
@@ -195,7 +195,7 @@ const Home: NextPage = () => {
                 - Sábados de 9 a 12h00 Presencial
                 <br />
                 <br />
-                Las fechas varían según la ciudad
+                Las fechas varían según la ciudad.
                 <br />
                 El equipo Oficial maneja producciones en horarios diferentes
                 según su disponibilidad.
@@ -255,7 +255,7 @@ const Home: NextPage = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
-                Al finalizar la experiencia por ciudad los participantes
+                Al finalizar la experiencia por ciudad los participantes:
                 <br />
                 - Reconocen sus habilidades y las potencializan mediante los
                 talleres formativos.
