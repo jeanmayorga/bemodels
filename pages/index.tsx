@@ -27,12 +27,18 @@ const Home: NextPage = () => {
         display="flex"
         alignItems="center"
         justifyContent="center"
+        mb={{ base: 0, lg: 8 }}
       >
         <Heading size="md" color="gray.600" fontWeight="extrabold">
           BM+
         </Heading>
       </Box>
-      <Box w={{ base: "100%", lg: "600px" }} margin="auto">
+      <Box
+        w={{ base: "100%", lg: "600px" }}
+        margin="auto"
+        overflow="hidden"
+        borderRadius={{ base: "none", lg: "lg" }}
+      >
         <img
           width="100%"
           src="https://scontent.fltx1-1.fna.fbcdn.net/v/t1.6435-9/162755073_132119145582873_3481728711598010053_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeGitQiXlV5eqIGuOii376vrdcsY-GwFC4R1yxj4bAULhD7tS3QkSNNVEV3vLGn-qRCldHfXSzGnmqloG0ybXTWA&_nc_ohc=LCdmw7fLqtoAX_G5pjs&_nc_ht=scontent.fltx1-1.fna&oh=00_AT_lYK9kjifvizPFqD6jwqeyoqqrKMyl0sOKeSLQ-6YX3Q&oe=621FAEB9"
@@ -195,7 +201,7 @@ const Home: NextPage = () => {
                 - Sábados de 9 a 12h00 Presencial
                 <br />
                 <br />
-                Las fechas varían según la ciudad.
+                Las fechas varían según la ciudad
                 <br />
                 El equipo Oficial maneja producciones en horarios diferentes
                 según su disponibilidad.
