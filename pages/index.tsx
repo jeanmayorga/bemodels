@@ -7,6 +7,7 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  Button,
 } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -58,6 +59,18 @@ const Home: NextPage = () => {
           video con la misión de formar y empoderar a los jóvenes a través de
           estas diciplinas.
         </Text>
+
+        <Box mb="4">
+          <a
+            href="https://jkifsqt5ie7.typeform.com/to/mggnfOga"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button colorScheme="blue" isFullWidth>
+              Inscribirse
+            </Button>
+          </a>
+        </Box>
 
         <Heading as="h1" size="md" color="gray.600" mb="4">
           Preguntas frecuentes
