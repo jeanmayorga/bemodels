@@ -28,8 +28,8 @@ const Home: NextPage = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Heading size="md" color="gray.600">
-          Be Models +
+        <Heading size="md" color="gray.600" fontWeight="extrabold">
+          BM+
         </Heading>
       </Box>
       <Box w={{ base: "100%", lg: "600px" }} margin="auto">
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         <Heading as="h1" size="md" color="gray.600" mb="2">
           Be Models Ecuador
         </Heading>
-        <Text as="p" fontSize="sm" color="gray.400" mb="4">
+        <Text as="p" textAlign="justify" fontSize="sm" color="gray.400" mb="4">
           Somos una productora encargada de formar a su propio equipo de modelos
           para trabajar en nuestra propias producciones y que puedan
           desenvolverse de manera independiente con otras marcas, el rango de
@@ -52,20 +52,12 @@ const Home: NextPage = () => {
           video con la misión de formar y empoderar a los jóvenes a través de
           estas diciplinas.
         </Text>
-        <Text as="p" fontSize="sm" color="gray.400" mb="8">
-          Cómo marca realizaremos una gira por todo el ecuador en busca de
-          nuestros nuevos rostros Be, el costo de participación en esta
-          experiencia es de $40, llevaremos la experiencia Be a cada uno de Uds
-          conoceremos y potencializaremos sus talentos. Nuestra cedé oficial se
-          encuentra en la cuidad de Baños Tungurahua y contamos con un equipo de
-          profesionales capacitados y experimentados en todas nuestras áreas.
-        </Text>
 
         <Heading as="h1" size="md" color="gray.600" mb="4">
           Preguntas frecuentes
         </Heading>
 
-        <Accordion allowMultiple>
+        <Accordion allowMultiple allowToggle>
           <AccordionItem>
             <h2>
               <AccordionButton>
@@ -76,7 +68,7 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 Somos una empresa creadora de contenido audiovisual. Fotografía
                 y video en producciones personales y de empresas. Años de
                 trayectoria nos avalan con una vasta experiencia en producción
@@ -97,7 +89,7 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 Nuestro objetivo es encontrar, formar y promocionar el talento
                 de jóvenes bailarines, cantantes, actores y modelos en el
                 desarrollo de producciones en general a través de nuestros
@@ -118,7 +110,7 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 El vestuario para los talleres/casting por ciudad es facilitado
                 por el participante en su totalidad, mientras que las
                 producciones con el equipo oficial seleccionado vienen
@@ -136,7 +128,7 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 El costo de participación en los talleres/casting por ciudad
                 tiene un costo de 40$. Una vez seleccionado como parte del
                 equipo oficial la participación no tiene ningún costo.
@@ -153,25 +145,7 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
-                Nuestra sede oficial está ubicada en la ciudad de Baños. En el
-                Barrio El Recreo. Av. Amazonas. Junto a la academia de baile
-                “Optimus Dance Studio” Las reuniones por ciudad varían según su
-                disponibilidad.
-              </Text>
-            </AccordionPanel>
-          </AccordionItem>
-          <AccordionItem>
-            <h2>
-              <AccordionButton>
-                <Box flex="1" textAlign="left" color="gray.600">
-                  ¿Dónde están ubicados?
-                </Box>
-                <AccordionIcon />
-              </AccordionButton>
-            </h2>
-            <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 Nuestra sede oficial está ubicada en la ciudad de Baños. En el
                 Barrio El Recreo. Av. Amazonas. Junto a la academia de baile
                 “Optimus Dance Studio” Las reuniones por ciudad varían según su
@@ -189,13 +163,15 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
-                Be Models cuenta con dos programas: el infantil y el juvenil
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
+                Be Models cuenta con dos programas: infantil y juvenil
                 <br />
-                Programa Kids (No disponible por el momento)
+                - Programa Kids (No disponible por el momento)
                 <br />
                 6 a 13 años <br />
-                Programa Teen (Aperturado)
+                <br />
+                - Programa Teen (Aperturado)
+                <br /> 14 a 25 años
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -209,13 +185,15 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 Los encuentros por ciudad constan de tres sesiones. Dos en línea
                 y una presencial.
                 <br />
-                Martes y jueves a las 17h00 en línea
                 <br />
-                Sábados de 9 a 12h00 Presencial
+                - Martes y jueves a las 17h00 en línea
+                <br />
+                - Sábados de 9 a 12h00 Presencial
+                <br />
                 <br />
                 Las fechas varían según la ciudad
                 <br />
@@ -236,7 +214,7 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 En caso de ser seleccionado como parte del equipo oficial tienes
                 acceso a la formación y promoción personalizada por parte de
                 nuestro equipo. <br />
@@ -258,7 +236,7 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 Las áreas a capacitarse son múltiples, pero en esencia nos
                 enfocamos en tres: baile, modelaje, expresión corporal. Además,
                 se trabaja en el empoderamiento personal, autoestima, misión y
@@ -276,24 +254,22 @@ const Home: NextPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Text as="p" fontSize="sm" color="gray.400">
+              <Text as="p" textAlign="justify" fontSize="sm" color="gray.400">
                 Al finalizar la experiencia por ciudad los participantes
-                <ul>
-                  <li>
-                    Reconocen sus habilidades y las potencializan mediante los
-                    talleres formativos.
-                  </li>
-                  <li>
-                    Reciben el contenido realizado con ellos durante la
-                    experiencia. Fotografía individual y en grupo. Videos de
-                    participación.
-                  </li>
-                  <li>Certificado de participación</li>
-                  <li>
-                    Descuento de participación en el campamento nacional “Be
-                    Camp 2022”
-                  </li>
-                </ul>
+                <br />
+                - Reconocen sus habilidades y las potencializan mediante los
+                talleres formativos.
+                <br />
+                - Reciben el contenido realizado con ellos durante la
+                experiencia. Fotografía individual y en grupo. Videos de
+                participación.
+                <br />
+                - Certificado de participación
+                <br />
+                <span>
+                  - Descuento de participación en el campamento nacional “Be
+                  Camp 2022”
+                </span>
               </Text>
             </AccordionPanel>
           </AccordionItem>
